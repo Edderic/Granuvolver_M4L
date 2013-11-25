@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 1,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ -1093.0, 507.0, 867.0, 516.0 ],
+		"rect" : [ 399.0, 222.0, 866.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 45.0, 186.0, 50.0, 18.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -48,6 +62,7 @@
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
 					"numoutlets" : 6,
+					"offset" : 0.,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 215.5, 166.0, 65.0, 41.0 ],
 					"presentation" : 1,
@@ -65,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 327.0, 50.0, 32.0 ],
+					"patching_rect" : [ 98.0, 327.0, 50.0, 31.0 ],
 					"text" : "set buf0 1"
 				}
 
@@ -102,33 +117,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 539.5, 215.0, 43.0, 20.0 ],
-					"text" : "sprintf"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.5, 163.0, 32.5, 18.0 ],
-					"text" : "2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -136,20 +124,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 263.5, 39.0, 32.5, 18.0 ],
 					"text" : "1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 524.0, 283.0, 50.0, 18.0 ],
-					"text" : "2 buf2"
 				}
 
 			}
@@ -193,6 +167,7 @@
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
 					"numoutlets" : 6,
+					"offset" : 0.,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 132.5, 248.0, 65.0, 41.0 ],
 					"presentation" : 1,
@@ -223,7 +198,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.5, 66.0, 32.5, 18.0 ],
+					"patching_rect" : [ 105.5, 56.0, 32.5, 18.0 ],
 					"text" : "#1"
 				}
 
@@ -249,10 +224,10 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 13.0, 27.0, 138.5, 20.0 ],
-					"text" : "t b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ 13.0, 27.0, 46.0, 20.0 ],
+					"text" : "t b b b"
 				}
 
 			}
@@ -270,11 +245,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 1,
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 33.0, 76.0, 640.0, 480.0 ],
+						"rect" : [ 99.0, 337.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -546,10 +521,10 @@
 					"presentation_rect" : [ 65.75, 0.0, 256.0, 58.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.drop",
-							"parameter_shortname" : "live.drop",
 							"parameter_type" : 4,
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "live.drop",
+							"parameter_longname" : "live.drop"
 						}
 
 					}
@@ -724,6 +699,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
