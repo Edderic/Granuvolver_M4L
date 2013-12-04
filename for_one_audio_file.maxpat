@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 6.0, 44.0, 1274.0, 706.0 ],
+		"rect" : [ 3.0, 44.0, 1274.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -129,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1293.0, -200.0, 67.0, 34.0 ],
+					"patching_rect" : [ 1330.5, -200.0, 67.0, 34.0 ],
 					"text" : "loop width\nend"
 				}
 
@@ -144,7 +144,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1212.0, -200.0, 67.0, 34.0 ],
+					"patching_rect" : [ 1246.0, -200.0, 67.0, 34.0 ],
 					"text" : "loop width\nstart"
 				}
 
@@ -158,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1121.5, -200.0, 67.0, 20.0 ],
+					"patching_rect" : [ 1154.0, -200.0, 67.0, 20.0 ],
 					"text" : "loop end"
 				}
 
@@ -172,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1041.0, -200.0, 67.0, 20.0 ],
+					"patching_rect" : [ 1075.5, -200.0, 67.0, 20.0 ],
 					"text" : "loop start"
 				}
 
@@ -274,6 +274,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.5, 336.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -287,10 +291,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 336.0, 44.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -361,7 +361,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 564.0, -7.0, 32.5, 18.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -598,8 +598,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 255.319236, 1.0, 0, 0.5, 1170.212788, 0.596491, 2, -0.75, 1999.999928, 0.0, 0, -0.25 ],
-					"domain" : 2000.0,
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 127.659618, 1.0, 0, 0.5, 585.106394, 0.596491, 2, -0.75, 999.999964, 0.0, 0, -0.25 ],
 					"id" : "obj-17",
 					"legend" : 0,
 					"maxclass" : "function",
