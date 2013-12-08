@@ -274,10 +274,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.5, 336.0, 44.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -291,6 +287,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 336.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -390,20 +390,6 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 994.0, -139.0, 32.5, 20.0 ],
 					"text" : "t i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 754.0, -139.0, 49.0, 20.0 ],
-					"text" : "* 1000."
 				}
 
 			}
@@ -598,7 +584,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 127.659618, 1.0, 0, 0.5, 585.106394, 0.596491, 2, -0.75, 999.999964, 0.0, 0, -0.25 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.12766, 1.0, 0, 0.5, 0.585106, 0.596491, 2, -0.75, 1.0, 0.0, 0, -0.25 ],
+					"domain" : 1.0,
 					"id" : "obj-17",
 					"legend" : 0,
 					"maxclass" : "function",
@@ -885,8 +872,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 279.5, 147.0, 68.0, 20.0 ],
-					"text" : "buffer~ buf"
+					"patching_rect" : [ 279.5, 155.0, 92.0, 20.0 ],
+					"text" : "buffer~ buf -1 2"
 				}
 
 			}
@@ -934,10 +921,10 @@
 					"presentation_rect" : [ 1.0, 0.0, 250.0, 82.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.drop",
 							"parameter_type" : 4,
 							"parameter_invisible" : 1,
-							"parameter_shortname" : "live.drop",
-							"parameter_longname" : "live.drop"
+							"parameter_shortname" : "live.drop"
 						}
 
 					}
@@ -1106,7 +1093,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
+					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-27", 0 ]
@@ -1349,15 +1336,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-41", 0 ]
 				}
 
 			}

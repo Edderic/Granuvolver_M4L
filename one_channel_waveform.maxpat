@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+		"rect" : [ 136.0, 138.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -570,7 +570,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 218.0, 295.5, 257.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1.0, 256.0, 80.0 ],
+					"presentation_rect" : [ 0.0, 1.0, 256.0, 63.0 ],
 					"selectioncolor" : [ 1.0, 0.788235, 0.027451, 0.5 ],
 					"setmode" : 2,
 					"varname" : "range_sel"
@@ -588,7 +588,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 55.000004, 228.0, 257.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 1.0, 256.0, 80.0 ],
+					"presentation_rect" : [ 0.0, 1.0, 256.0, 63.0 ],
 					"selectioncolor" : [ 1.0, 0.788235, 0.027451, 0.5 ],
 					"setmode" : 2,
 					"varname" : "loop_length_sel"
