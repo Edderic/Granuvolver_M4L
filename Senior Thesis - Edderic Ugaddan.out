@@ -1,11 +1,17 @@
-\BOOKMARK [1][-]{section.1}{Gratitude}{}
-\BOOKMARK [1][-]{section.2}{Introduction}{}
-\BOOKMARK [1][-]{section.3}{Granular Synthesis}{}
-\BOOKMARK [1][-]{section.4}{Convolution}{}
-\BOOKMARK [1][-]{section.5}{Granuvolver}{}
-\BOOKMARK [2][-]{subsection.5.1}{Why Max?}{section.5}
-\BOOKMARK [2][-]{subsection.5.2}{Installation}{section.5}
-\BOOKMARK [2][-]{subsection.5.3}{How to use}{section.5}
-\BOOKMARK [1][-]{section.6}{Music Piece}{}
-\BOOKMARK [1][-]{section.7}{Conclusion}{}
-\BOOKMARK [1][-]{section.8}{References}{}
+\BOOKMARK [1][-]{section.1}{Gratitude}{}% 1
+\BOOKMARK [1][-]{section.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.3}{Granular Synthesis}{}% 3
+\BOOKMARK [1][-]{section.4}{Convolution}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{What is it?}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Reverberation}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Algorithmic Efficiency}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Granuvolver}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Why Max?}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Installation}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.3}{How to use}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.4}{Future Improvements}{section.5}% 12
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Known Bugs}{subsection.5.4}% 13
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Suggested Improvements}{subsection.5.4}% 14
+\BOOKMARK [1][-]{section.6}{Music Piece}{}% 15
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 16
+\BOOKMARK [1][-]{section.8}{References}{}% 17
