@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 DEC 2013 00:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  9 DEC 2013 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,9 +397,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
 (./Senior Thesis - Edderic Ugaddan.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 4.
 )
 \tf@toc=\write4
 \openout4 = `"Senior Thesis - Edderic Ugaddan.toc"'.
@@ -408,33 +408,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 
-<images/Granuvolver.png, id=125, 604.2575pt x 194.7275pt>
+<images/Granuvolver.png, id=139, 604.2575pt x 194.7275pt>
 File: images/Granuvolver.png Graphic file (type png)
 
 <use images/Granuvolver.png>
-Package pdftex.def Info: images/Granuvolver.png used on input line 53.
+Package pdftex.def Info: images/Granuvolver.png used on input line 71.
 (pdftex.def)             Requested size: 345.0pt x 111.18004pt.
- [4 <./images/Granuvolver.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
 
-(./Senior Thesis - Edderic Ugaddan.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5 <./images/Granuvolver.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (./Senior Thesis - Edderic Ugaddan.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `"Senior Thesis - Edderic Ugaddan".out' has n
 ot changed.
-(rerunfilecheck)             Checksum: 0CBA98589F9B970FF9F088DD40C2A879;968.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
+(rerunfilecheck)             Checksum: 487C5ACE3C8D9A192F649E8AC1CBF9C0;1087.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 6006 strings out of 493488
- 85616 string characters out of 3141326
- 169091 words of memory out of 3000000
- 9239 multiletter control sequences out of 15000+200000
+ 6022 strings out of 493488
+ 85792 string characters out of 3141326
+ 169157 words of memory out of 3000000
+ 9244 multiletter control sequences out of 15000+200000
  14520 words of font info for 47 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,6n,35p,842b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,35p,860b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -448,11 +451,11 @@ exlive/2012/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/local
 /texlive/2012/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/public/mathabx-type1/mathb10.pfb></usr/lo
 cal/texlive/2012/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb>
-Output written on "Senior Thesis - Edderic Ugaddan.pdf" (5 pages, 149010 bytes)
+Output written on "Senior Thesis - Edderic Ugaddan.pdf" (6 pages, 152066 bytes)
 .
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
