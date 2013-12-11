@@ -106,7 +106,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -116,7 +115,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 144.0, 187.5, 34.0, 20.0 ],
+									"patching_rect" : [ 149.5, 187.5, 34.0, 20.0 ],
 									"text" : "t b b"
 								}
 
@@ -144,7 +143,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 113.0, 160.5, 36.0, 20.0 ],
+									"patching_rect" : [ 167.0, 137.5, 36.0, 20.0 ],
 									"text" : "sel 1"
 								}
 
@@ -346,7 +345,7 @@
 									"destination" : [ "obj-38", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-37", 0 ]
+									"source" : [ "obj-37", 1 ]
 								}
 
 							}
@@ -355,7 +354,7 @@
 									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-37", 1 ]
+									"source" : [ "obj-37", 0 ]
 								}
 
 							}
@@ -398,7 +397,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 55.0, 86.0, 194.0, 20.0 ],
+					"patching_rect" : [ 55.0, 86.0, 217.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -412,7 +411,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p scripting_show_hide_waveforms"
+					"text" : "p scripting_show_hide_waveforms_rev"
 				}
 
 			}
@@ -562,7 +561,6 @@
 , 			{
 				"box" : 				{
 					"buffername" : "",
-					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -581,6 +579,7 @@
 				"box" : 				{
 					"background" : 1,
 					"buffername" : "",
+					"hidden" : 1,
 					"id" : "obj-23",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
