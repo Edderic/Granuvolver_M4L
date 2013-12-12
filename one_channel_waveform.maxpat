@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64"
 		}
 ,
@@ -83,7 +83,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64"
 						}
 ,
@@ -143,7 +143,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 167.0, 137.5, 36.0, 20.0 ],
+									"patching_rect" : [ 201.5, 140.5, 36.0, 20.0 ],
 									"text" : "sel 1"
 								}
 
@@ -273,7 +273,7 @@
 									"destination" : [ "obj-21", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-17", 3 ]
+									"source" : [ "obj-17", 1 ]
 								}
 
 							}
@@ -282,7 +282,7 @@
 									"destination" : [ "obj-37", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-17", 3 ]
+									"source" : [ "obj-17", 1 ]
 								}
 
 							}
@@ -561,6 +561,7 @@
 , 			{
 				"box" : 				{
 					"buffername" : "",
+					"hidden" : 1,
 					"id" : "obj-1",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -579,7 +580,6 @@
 				"box" : 				{
 					"background" : 1,
 					"buffername" : "",
-					"hidden" : 1,
 					"id" : "obj-23",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
