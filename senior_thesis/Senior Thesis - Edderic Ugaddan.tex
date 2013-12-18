@@ -39,7 +39,7 @@
 		\begin{equation}
 			(f \convolution g) = \sum_{m=-\infty}^{\infty} f[m] g[n-m] 
 		\end{equation} 
-		where $f$ and $g$ are the two signals being convolved.\cite[pp. 121]{JOS_conv}  
+		where $f$ and $g$ are the two signals being convolved.\cite[pp. 121]{JOS_conv}. $m$ can represent time in samples.
 
 		\subsection{Reverberation}
 
@@ -183,6 +183,8 @@
 
 					\item Convolution recording is not being saved.  Therefore, attempting to save the Live Set (even doing \emph{Collect all and save}) and restarting Ableton Live does no good in saving a recording that was recorded via \emph{Record} button.
 
+					\item Start and end points of the granulator \emph{waveform}\~{} selection are also not saved just like in the case above.
+
 					\item Information relating to the Amplitude Envelope \emph{function}\~{} object, such as $X,Y,$ and $curve$, is not being stored in saving the Ableton Live Set. 
 
 				\end{enumerate}
@@ -203,6 +205,8 @@
 		"Elements" is a short piece that was only made using three sampled audio files--one of water dripping $W$, starting a fire $F$, and a burst of thunder $T$. The general idea was to granulate each of those signals and use them as the Impulse Response (IR) for convolution. Once recorded, another signal is granulated live, and is also convolved with the recorded granulated signal live. Different combinations were used for the live granulated signal and the IR: $(F,F), (W,W), (L,L), (F,W)$, etc. Most of the settings used long amplitude envelopes (high amp. env.), high reverb gain, and long recordings of the granulated signals for long reverb tails, resulting in sonically rich textures.
 
 		The audio file can be found at \href{https://soundcloud.com/edderic/elements}{Soundcloud}.
+
+		The Ableton Live Set can be found on \href{https://github.com/Edderic/Granuvolver/tree/master/Senior%20Thesis%20Project}{Github}.  However, please note the known bugs listed from above, especially ones relating to saving.
 
 	\section{Conclusion}
 		Granuvolver, because of its granulator's stereo effect and its convolution engine being multichannel, seems to excel at making rich, cloudy, ambient sonic textures. However, it was found more difficult to use Granuvolver as a transient generator precisely because of its strengths. Loud transients in stereo (with differences in timing between the two channels) do not distribute soundwaves evenly, unlike kicks and snares in traditional electronic dance music (such as house, trance, etc.in which they are usually placed dead center).  Similarly, the stereo convolution may further compound the problem just discussed as it seems to smear the transients away and may make the mix "too cloudy."  Therefore, Granuvolver is more recommended for situations in which complex, ethereal sounds are needed.
