@@ -126,9 +126,9 @@
 
 				\item Play MIDI notes. You should hear the waveform. The waveform should be transposed depending on the note pressed.  
 
-				\item Click and drag on the waveform with an up movement. This section by default is the \emph{stochastic iterator range selector} (you can actually change it as to edit the loop length instead by pressing \emph{CTRL} as described in the next enumerated instruction.) Doing so activates the Gaussian Normal pseudo-random generator. The middle of the left and right bounds of the yellow area is the mean of the Gaussian. Thus, the larger the area covered by yellow, the more "random" it should sound.  You should hear stuttering in stereo.  Select a range for the granulator to stochastically iterate by dragging the selection left or right. See Figure~\ref{selected_stochastic_loop_area} on page~\pageref{selected_stochastic_loop_area}.
+				\item Click and drag on the waveform with an up movement. This section by default is the \emph{stochastic iterator range selector}. Doing so activates the Gaussian Normal pseudo-random generator. The middle of the left and right bounds of the yellow area is the mean of the Gaussian. Thus, the larger the area covered by yellow, the more "random" it should sound.  You should hear stuttering in stereo.  Select a range for the granulator to stochastically iterate by dragging the selection left or right. See Figure~\ref{selected_stochastic_loop_area} on page~\pageref{selected_stochastic_loop_area}.
 
-				\item Click and hold \emph{CTRL} to be able to switch the \emph{stochastic iterator range selector} into one that controls \emph{loop length}. While holding \emph{CTRL}, click and drag up to extend the loop length, or down to decrease the loop length. The shorter the loop length, the more the sound accumulates high frequencies and clicks, and vice versa.
+				\item Adjust the \emph{loop length} dial to change loop length to suit your needs.
 
 				\item Play around with the \emph{metro} dial.  This parameter affects how quickly the Gaussian Pseudo-Random generator outputs a number that influences the section of sound to iterate.  The shorter it is, the faster the change, and vice versa.
 
@@ -176,10 +176,38 @@
 
 		\subsection{Future Improvements}
 			\subsubsection{Known Bugs}
+				\begin{enumerate}
+					\item Dropping a mono audio file into the waveform for the granulator results in the granulator only playing audio in the left channel.
+
+					\item Loading another instance of Granuvolver is a problem since the \emph{buffer}\~{} objects in each Granuvolver are not given names that are unique to each Granuvolver instance.  Therefore, dropping one audio file to be granulated in one instance will store the audio in other instances as well.
+
+					\item Convolution recording is not being saved.  Therefore, attempting to save the Live Set (even doing \emph{Collect all and save}) and restarting Ableton Live does no good in saving a recording that was recorded via \emph{Record} button.
+
+					\item Information relating to the Amplitude Envelope \emph{function}\~{} object, such as $X,Y,$ and $curve$, is not being stored in saving the Ableton Live Set. 
+
+				\end{enumerate}
+
+				Further progress can be found at \href{https://www.pivotaltracker.com/s/projects/961764}{Granuvolver's Pivotal Tracker site.}
+
 			\subsubsection{Suggested Improvements}
+				\begin{enumerate}
+					\item Develop a bypass button for \emph{reverb gain}.
+					
+					\item Be able to adjust the number of voices dynamically in order to save CPU cycles.
+					
+					\item Make use of the \emph{polybuffer}\~{} object in order to load a folder of samples to quickly play around with.  This is faster than manually dragging-and-dropping each audio file to be granulated.
+
+
+				\end{enumerate}
 	\section{Music Piece}
+		"Elements" is a short piece that was only made using three sampled audio files--one of water dripping $W$, starting a fire $F$, and a burst of thunder $T$. The general idea was to granulate each of those signals and use them as the Impulse Response (IR) for convolution. Once recorded, another signal is granulated live, and is also convolved with the recorded granulated signal live. Different combinations were used for the live granulated signal and the IR: $(F,F), (W,W), (L,L), (F,W)$, etc. Most of the settings used long amplitude envelopes (high amp. env.), high reverb gain, and long recordings of the granulated signals for long reverb tails, resulting in sonically rich textures.
+
+		The audio file can be found at \href{https://soundcloud.com/edderic/elements}{Soundcloud}.
+
 	\section{Conclusion}
-	\section{References}
+		Granuvolver, because of its granulator's stereo effect and its convolution engine being multichannel, seems to excel at making rich, cloudy, ambient sonic textures. However, it was found more difficult to use Granuvolver as a transient generator precisely because of its strengths. Loud transients in stereo (with differences in timing between the two channels) do not distribute soundwaves evenly, unlike kicks and snares in traditional electronic dance music (such as house, trance, etc.in which they are usually placed dead center).  Similarly, the stereo convolution may further compound the problem just discussed as it seems to smear the transients away and may make the mix "too cloudy."  Therefore, Granuvolver is more recommended for situations in which complex, ethereal sounds are needed.
+
+ 	\section{References}
 		\begin{thebibliography}{99}
 		\bibitem{Curtis_gs_def} C. Roads, The History of Microsound, in \emph{Microsound}, 1st ed. Massachusetts, MIT Press, 2004, ch. 2, loc. 1024/4377 (Kindle), ISBN 0262182157
 

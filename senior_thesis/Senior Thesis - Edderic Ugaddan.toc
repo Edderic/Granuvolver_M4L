@@ -16,5 +16,5 @@
 \contentsline {subsubsection}{\numberline {5.5.1}Known Bugs}{9}{subsubsection.5.5.1}
 \contentsline {subsubsection}{\numberline {5.5.2}Suggested Improvements}{9}{subsubsection.5.5.2}
 \contentsline {section}{\numberline {6}Music Piece}{9}{section.6}
-\contentsline {section}{\numberline {7}Conclusion}{9}{section.7}
-\contentsline {section}{\numberline {8}References}{9}{section.8}
+\contentsline {section}{\numberline {7}Conclusion}{10}{section.7}
+\contentsline {section}{\numberline {8}References}{10}{section.8}
